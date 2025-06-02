@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to bottom, gold, black);
+        background-image: linear-gradient(to bottom, rgb(173, 4, 4), black);
     }
     section#login {
         width: 80vw;
@@ -28,11 +28,18 @@ div#formulario > p {
     font-size: 1.2em;
 }
 
+div.campo > input {
+    font-size: 1em;
+    height: 30px;
+    width: 93%;
+    border-radius: 10px;
+}
+
 }
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to bottom, gold, black);
+        background-image: linear-gradient(to bottom, rgb(173, 4, 4), black);
     }
     
     section#login {
@@ -57,6 +64,13 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 1.2em;
+}
+
+div.campo > input {
+    font-size: 1em;
+    height: 30px;
+    width: 93%;
+    border-radius: 10px;
 }
 
 }
